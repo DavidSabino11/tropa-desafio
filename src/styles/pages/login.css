@@ -1,0 +1,83 @@
+#page-login {
+    width: 100vw;
+    height: 100vh;
+    background: #FF6C22;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ .content-wrapper {
+    width: 857px;
+    height: 512px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 4px 19px rgba(0, 0, 0, 0.25);
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+}
+
+#page-login .text-wrapper {
+    margin-left: 10%;
+    border-width:2px;
+    width: 100px;
+}
+
+.text-wrapper img {
+    margin: 50px;
+}
+
+.text-wrapper img.bemVindo {
+    margin: 10px;
+}
+
+
+
+.text-wrapper button {
+    margin-top: 10px;
+    width: 151px;
+    height: 40px;
+    background: #2EAFB2;
+    border-radius: 5px;
+    font-size: 15px;
+    color: white;
+}
+
+.text-wrapper button:hover {
+    background: #1a6364;
+}
+
+.text-wrapper input {
+    margin-top: 10px;
+    width: 313px;
+    height: 44px;
+    background: #FFFFFF;
+    border: 2px solid rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+.img-wrapper .rec {
+    margin-left: 73%;
+    margin-top: 1%;
+}
+
+.img-wrapper .not{
+    z-index: 5;
+    position:absolute;
+    top: 34.1%;
+    right: 29%;
+}    
+
+@media (max-height: 720px) {
+    .img-wrapper .not{
+        z-index: 5;
+        position:absolute;
+        top: 26.6%;
+        right: 20%;
+    }    
+}
+
+
