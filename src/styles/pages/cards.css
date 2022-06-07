@@ -1,0 +1,40 @@
+.row {
+    justify-content: left;
+    display: flex;
+    margin: 5%;
+}
+
+.card1 {
+    width: 500px;
+    height: 260px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.09);
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+}
+
+.card1 img {
+    margin: 4%;
+}
+
+.card1 h2 {
+    color: #000000;
+    font-family: 'Advent Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 186.5%;
+    margin-left: 5%;
+}
+
+.card1 h3 {
+    color: #000000;
+    font-family: 'Advent Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 186.5%;
+    margin-left: 5%;
+}
