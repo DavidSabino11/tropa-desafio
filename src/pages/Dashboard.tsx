@@ -24,7 +24,9 @@ function Dashboard() {
             <div id="page-pr">
                 <h1>Olá Usuário</h1>
                 <hr></hr>
-                <Cards></Cards>
+                <div className="cards">
+                    <Cards></Cards> <Cards></Cards> <Cards></Cards>
+                </div>
             </div>
         </div>
     );
